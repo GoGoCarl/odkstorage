@@ -1,0 +1,31 @@
+{
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "start": "2015-08-24T18:29:34.509-04",
+    "end": "2015-08-24T18:31:08.737-04",
+    "today": "2015-08-24",
+    "deviceid": 990003451134478,
+    "group_location": {
+      "lat": 50,
+      "lon": 60
+    },
+    "exact_location": "no",
+    "distance": "feet_1320",
+    "photos": {},
+    "region": "south_central",
+    "village": "shorinab",
+    "area": "kanowadtao",
+    "shorinab_settlement": "shorinab",
+    "landtitle": "no",
+    "customary": "no",
+    "meta": {
+      "instanceId": "uuid:6c648b70-d882-48ef-ad33-5c3d6f30f444",
+      "instanceName": "Aug-24 18:29 shorinab ",
+      "formId": "monitoring",
+      "version": 5,
+      "deviceId": "imei:990003451134478",
+      "submissionTime": "2015-08-24T22:34:30.256Z"
+    }
+  }
+}
