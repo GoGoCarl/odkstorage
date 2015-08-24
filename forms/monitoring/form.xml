@@ -1,0 +1,2088 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Monitoring Form v5</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="English">
+          <text id="static_instance-distance_list-0">
+            <value>About 30 feet</value>
+          </text>
+          <text id="static_instance-area_list-50">
+            <value>Essequibo / Chiip Wao</value>
+          </text>
+          <text id="static_instance-area_list-55">
+            <value>Lower Kuyuwini</value>
+          </text>
+          <text id="static_instance-area_list-54">
+            <value>Middle Kuyuwini</value>
+          </text>
+          <text id="static_instance-area_list-57">
+            <value>Middle Kwitaro</value>
+          </text>
+          <text id="static_instance-area_list-56">
+            <value>Kwitaro Head</value>
+          </text>
+          <text id="static_instance-area_list-51">
+            <value>Upper Rupununi</value>
+          </text>
+          <text id="static_instance-distance_list-5">
+            <value>One mile</value>
+          </text>
+          <text id="static_instance-area_list-53">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-area_list-52">
+            <value>Darichibai</value>
+          </text>
+          <text id="static_instance-landtype_list-1">
+            <value>Mountains</value>
+          </text>
+          <text id="static_instance-landtype_list-0">
+            <value>Forest</value>
+          </text>
+          <text id="static_instance-landtype_list-3">
+            <value>Savannah</value>
+          </text>
+          <text id="static_instance-landtype_list-2">
+            <value>Water</value>
+          </text>
+          <text id="static_instance-landtype_list-5">
+            <value>Bush Mouth</value>
+          </text>
+          <text id="static_instance-landtype_list-4">
+            <value>Bush Island</value>
+          </text>
+          <text id="static_instance-landtype_list-6">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-achawib_list-0">
+            <value>Achawib</value>
+          </text>
+          <text id="static_instance-achawib_list-1">
+            <value>Bashauzoon</value>
+          </text>
+          <text id="static_instance-area_list-20">
+            <value>Kashiwiizi</value>
+          </text>
+          <text id="static_instance-area_list-21">
+            <value>Darichibai</value>
+          </text>
+          <text id="static_instance-area_list-22">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-area_list-23">
+            <value>Kosad</value>
+          </text>
+          <text id="static_instance-area_list-24">
+            <value>Raada</value>
+          </text>
+          <text id="static_instance-area_list-25">
+            <value>Mamidi</value>
+          </text>
+          <text id="static_instance-area_list-26">
+            <value>Toridukuo</value>
+          </text>
+          <text id="static_instance-area_list-27">
+            <value>Lower Takatu</value>
+          </text>
+          <text id="static_instance-area_list-28">
+            <value>Middle Rupununi</value>
+          </text>
+          <text id="static_instance-area_list-29">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-people_list-9">
+            <value>Other (e.g. guide)</value>
+          </text>
+          <text id="static_instance-people_list-8">
+            <value>Nicholas Fredericks</value>
+          </text>
+          <text id="static_instance-aishara_toon_list-0">
+            <value>Aishara Toon</value>
+          </text>
+          <text id="static_instance-aishara_toon_list-1">
+            <value>Churikidi Naawa</value>
+          </text>
+          <text id="static_instance-people_list-5">
+            <value>Gavin Winter</value>
+          </text>
+          <text id="static_instance-people_list-4">
+            <value>Philip Brown</value>
+          </text>
+          <text id="static_instance-people_list-7">
+            <value>Elvis Fernandes</value>
+          </text>
+          <text id="static_instance-people_list-6">
+            <value>Ezra Jeffery</value>
+          </text>
+          <text id="static_instance-people_list-1">
+            <value>Derek David</value>
+          </text>
+          <text id="static_instance-distance_list-4">
+            <value>Half mile</value>
+          </text>
+          <text id="static_instance-people_list-3">
+            <value>Timothy J Isaacs</value>
+          </text>
+          <text id="static_instance-people_list-2">
+            <value>Tessa Felix</value>
+          </text>
+          <text id="static_instance-shorinab_list-1">
+            <value>Quiko</value>
+          </text>
+          <text id="static_instance-area_list-33">
+            <value>Tamtoon</value>
+          </text>
+          <text id="static_instance-area_list-32">
+            <value>Upper Rupununi</value>
+          </text>
+          <text id="static_instance-area_list-31">
+            <value>Upper Kuyuwini</value>
+          </text>
+          <text id="static_instance-area_list-30">
+            <value>Upper Takatu</value>
+          </text>
+          <text id="static_instance-area_list-37">
+            <value>Middle Kuyuwini</value>
+          </text>
+          <text id="static_instance-area_list-36">
+            <value>Upper Kuyuwini</value>
+          </text>
+          <text id="static_instance-area_list-35">
+            <value>Upper Takatu</value>
+          </text>
+          <text id="static_instance-area_list-34">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-water_list-4">
+            <value>Marsh</value>
+          </text>
+          <text id="static_instance-area_list-38">
+            <value>Lower Kuyuwini</value>
+          </text>
+          <text id="static_instance-water_list-2">
+            <value>Lake</value>
+          </text>
+          <text id="static_instance-water_list-3">
+            <value>Wetlands</value>
+          </text>
+          <text id="static_instance-water_list-0">
+            <value>Creek</value>
+          </text>
+          <text id="static_instance-water_list-1">
+            <value>River</value>
+          </text>
+          <text id="static_instance-public_private-1">
+            <value>Internal</value>
+          </text>
+          <text id="static_instance-public_private-0">
+            <value>Public</value>
+          </text>
+          <text id="static_instance-distance_list-3">
+            <value>Quarter mile</value>
+          </text>
+          <text id="static_instance-distance_list-2">
+            <value>Several hundred feet</value>
+          </text>
+          <text id="static_instance-distance_list-1">
+            <value>About 100 feet</value>
+          </text>
+          <text id="static_instance-impacts_list-11">
+            <value>Damage to gathering grounds</value>
+          </text>
+          <text id="static_instance-impacts_list-14">
+            <value>FPIC violation</value>
+          </text>
+          <text id="static_instance-impacts_list-15">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-happening_list-9">
+            <value>Tourism Violation</value>
+          </text>
+          <text id="static_instance-happening_list-8">
+            <value>Illegal Grazing</value>
+          </text>
+          <text id="static_instance-village_list-13">
+            <value>Parobaz</value>
+          </text>
+          <text id="static_instance-village_list-12">
+            <value>Shii</value>
+          </text>
+          <text id="static_instance-village_list-11">
+            <value>Marora Naawa</value>
+          </text>
+          <text id="static_instance-village_list-10">
+            <value>Awaru Wao Naawa</value>
+          </text>
+          <text id="static_instance-happening_list-1">
+            <value>Logging</value>
+          </text>
+          <text id="static_instance-happening_list-0">
+            <value>Mining</value>
+          </text>
+          <text id="static_instance-happening_list-3">
+            <value>Rustling</value>
+          </text>
+          <text id="static_instance-happening_list-2">
+            <value>Crossing</value>
+          </text>
+          <text id="static_instance-happening_list-5">
+            <value>Illegal Hunting</value>
+          </text>
+          <text id="static_instance-happening_list-4">
+            <value>Smuggling</value>
+          </text>
+          <text id="static_instance-happening_list-7">
+            <value>Illegal Trapping</value>
+          </text>
+          <text id="static_instance-happening_list-6">
+            <value>Illegal Fishing</value>
+          </text>
+          <text id="static_instance-landtitle_choice-2">
+            <value>Don't know</value>
+          </text>
+          <text id="static_instance-area_list-59">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-landtitle_choice-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-people_list-0">
+            <value>Angelbert Johnny</value>
+          </text>
+          <text id="static_instance-area_list-58">
+            <value>Kashiwiizi</value>
+          </text>
+          <text id="static_instance-area_list-42">
+            <value>Tamtoon</value>
+          </text>
+          <text id="static_instance-shorinab_list-2">
+            <value>Meri Wao</value>
+          </text>
+          <text id="static_instance-shorinab_list-0">
+            <value>Shulinab</value>
+          </text>
+          <text id="static_instance-area_list-43">
+            <value>Darichibai</value>
+          </text>
+          <text id="static_instance-region_list-0">
+            <value>South Central</value>
+          </text>
+          <text id="static_instance-region_list-1">
+            <value>Deep South</value>
+          </text>
+          <text id="static_instance-landtitle_choice-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-exact_choice-1">
+            <value>No, I'm some distance away</value>
+          </text>
+          <text id="static_instance-exact_choice-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-area_list-68">
+            <value>Essequibo / Chiip Wao</value>
+          </text>
+          <text id="static_instance-area_list-69">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-area_list-64">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-area_list-65">
+            <value>Kamodukuo</value>
+          </text>
+          <text id="static_instance-area_list-66">
+            <value>Kwitaro</value>
+          </text>
+          <text id="static_instance-area_list-67">
+            <value>Rii Wao</value>
+          </text>
+          <text id="static_instance-area_list-60">
+            <value>Middle Kwitaro</value>
+          </text>
+          <text id="static_instance-area_list-61">
+            <value>Rii Wao</value>
+          </text>
+          <text id="static_instance-area_list-62">
+            <value>Essequibo / Chiip Wao</value>
+          </text>
+          <text id="static_instance-area_list-63">
+            <value>Kashiwiizi</value>
+          </text>
+          <text id="static_instance-area_list-19">
+            <value>Middle Rupununi</value>
+          </text>
+          <text id="static_instance-area_list-18">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-area_list-11">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-area_list-10">
+            <value>Lower Takatu</value>
+          </text>
+          <text id="static_instance-area_list-13">
+            <value>Korowin</value>
+          </text>
+          <text id="static_instance-area_list-12">
+            <value>Middle Rupununi</value>
+          </text>
+          <text id="static_instance-area_list-15">
+            <value>Middle Rupununi</value>
+          </text>
+          <text id="static_instance-area_list-14">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-area_list-17">
+            <value>Kamodukuo</value>
+          </text>
+          <text id="static_instance-area_list-16">
+            <value>Korowin</value>
+          </text>
+          <text id="static_instance-area_list-75">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-impacts_list-8">
+            <value>Water pollution</value>
+          </text>
+          <text id="static_instance-impacts_list-9">
+            <value>Water poisoned</value>
+          </text>
+          <text id="static_instance-impacts_list-0">
+            <value>Loss of cultural heritage</value>
+          </text>
+          <text id="static_instance-impacts_list-1">
+            <value>Violation of sensitive site</value>
+          </text>
+          <text id="static_instance-impacts_list-2">
+            <value>Damage to farming grounds</value>
+          </text>
+          <text id="static_instance-impacts_list-3">
+            <value>Depletion of game</value>
+          </text>
+          <text id="static_instance-impacts_list-4">
+            <value>Damage to wildlife / habitat</value>
+          </text>
+          <text id="static_instance-impacts_list-5">
+            <value>Damage to grazing lands</value>
+          </text>
+          <text id="static_instance-impacts_list-6">
+            <value>Harm to community conserved site</value>
+          </text>
+          <text id="static_instance-impacts_list-7">
+            <value>Depletion of fish</value>
+          </text>
+          <text id="static_instance-village_list-7">
+            <value>Achawib</value>
+          </text>
+          <text id="static_instance-village_list-6">
+            <value>Sawari Wao</value>
+          </text>
+          <text id="static_instance-village_list-5">
+            <value>Katoonarub</value>
+          </text>
+          <text id="static_instance-village_list-4">
+            <value>Zoopo Naawa</value>
+          </text>
+          <text id="static_instance-village_list-3">
+            <value>Soburun</value>
+          </text>
+          <text id="static_instance-village_list-2">
+            <value>Potari Naawa</value>
+          </text>
+          <text id="static_instance-village_list-1">
+            <value>Shulinab</value>
+          </text>
+          <text id="static_instance-village_list-0">
+            <value>Parikowaro Naawa</value>
+          </text>
+          <text id="static_instance-potari_naawa_list-0">
+            <value>Potari Naawa</value>
+          </text>
+          <text id="static_instance-potari_naawa_list-1">
+            <value>Bai Toon</value>
+          </text>
+          <text id="static_instance-potari_naawa_list-2">
+            <value>Katuwaoro</value>
+          </text>
+          <text id="static_instance-potari_naawa_list-3">
+            <value>Shizizi</value>
+          </text>
+          <text id="static_instance-area_list-73">
+            <value>Washarar Wao</value>
+          </text>
+          <text id="static_instance-area_list-39">
+            <value>Washarar Wao</value>
+          </text>
+          <text id="static_instance-village_list-9">
+            <value>Aishara Toon</value>
+          </text>
+          <text id="static_instance-village_list-8">
+            <value>Karaodaz Naawa</value>
+          </text>
+          <text id="static_instance-area_list-74">
+            <value>Upper Rupununi</value>
+          </text>
+          <text id="static_instance-area_list-72">
+            <value>Lower Kuyuwini</value>
+          </text>
+          <text id="static_instance-area_list-71">
+            <value>Middle Kuyuwini</value>
+          </text>
+          <text id="static_instance-permission_list-4">
+            <value>No Permission</value>
+          </text>
+          <text id="static_instance-area_list-70">
+            <value>Upper Kuyuwini</value>
+          </text>
+          <text id="static_instance-permission_list-1">
+            <value>GFC Permission</value>
+          </text>
+          <text id="static_instance-permission_list-0">
+            <value>GGMC Permission</value>
+          </text>
+          <text id="static_instance-permission_list-3">
+            <value>Operating outside permitted area</value>
+          </text>
+          <text id="static_instance-permission_list-2">
+            <value>Village Permission</value>
+          </text>
+          <text id="static_instance-area_list-9">
+            <value>Bakawadataawa</value>
+          </text>
+          <text id="static_instance-area_list-8">
+            <value>Kanowadtao</value>
+          </text>
+          <text id="static_instance-area_list-5">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-area_list-4">
+            <value>Shorinab Mountain Foot</value>
+          </text>
+          <text id="static_instance-area_list-7">
+            <value>Shizizi</value>
+          </text>
+          <text id="static_instance-area_list-6">
+            <value>Kosad</value>
+          </text>
+          <text id="static_instance-area_list-1">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-area_list-0">
+            <value>Lower Takatu</value>
+          </text>
+          <text id="static_instance-area_list-3">
+            <value>Middle Rupununi</value>
+          </text>
+          <text id="static_instance-area_list-2">
+            <value>Kanowadtao</value>
+          </text>
+          <text id="static_instance-area_list-48">
+            <value>Marudi</value>
+          </text>
+          <text id="static_instance-area_list-49">
+            <value>Rii Wao</value>
+          </text>
+          <text id="static_instance-happening_list-11">
+            <value>Other…</value>
+          </text>
+          <text id="static_instance-happening_list-10">
+            <value>Stealing Artefacts</value>
+          </text>
+          <text id="static_instance-area_list-40">
+            <value>Marudi</value>
+          </text>
+          <text id="static_instance-area_list-41">
+            <value>Upper Rupununi</value>
+          </text>
+          <text id="static_instance-area_list-46">
+            <value>Lower Kuyuwini</value>
+          </text>
+          <text id="static_instance-area_list-47">
+            <value>Kwitaro Head</value>
+          </text>
+          <text id="static_instance-area_list-44">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-area_list-45">
+            <value>Middle Kuyuwini</value>
+          </text>
+          <text id="static_instance-impacts_list-12">
+            <value>Deforestation</value>
+          </text>
+          <text id="static_instance-impacts_list-13">
+            <value>Social harm or abuse</value>
+          </text>
+          <text id="static_instance-impacts_list-10">
+            <value>Damage to water source / watershed</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <monitoring_v5 id="monitoring" version="5">
+          <start/>
+          <end/>
+          <today/>
+          <deviceid/>
+          <group_location>
+            <location/>
+            <lat/>
+            <lon/>
+          </group_location>
+          <exact_location/>
+          <distance/>
+          <bearing/>
+          <photos>
+            <picture/>
+            <caption/>
+          </photos>
+          <region/>
+          <village/>
+          <area/>
+          <shorinab_settlement/>
+          <potari_naawa_settlement/>
+          <achawib_settlement/>
+          <aishara_toon_settlement/>
+          <placename/>
+          <placename_mbc/>
+          <landtitle/>
+          <customary/>
+          <happening/>
+          <happening_other/>
+          <crossing_group>
+            <crossing_active/>
+            <crossing/>
+            <crossing_other/>
+          </crossing_group>
+          <rustling_group>
+            <cattle_count/>
+            <cattle_cost/>
+          </rustling_group>
+          <mining_group>
+            <mining_excavators/>
+            <mining_dredges/>
+          </mining_group>
+          <who/>
+          <permission/>
+          <landtype/>
+          <landtype_other/>
+          <landtype_water/>
+          <impacts/>
+          <impacts_other/>
+          <other_info/>
+          <people/>
+          <people_other/>
+          <council_informed/>
+          <council_responded/>
+          <council_actions/>
+          <scpda_request/>
+          <scpda_request_details/>
+          <public/>
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+        </monitoring_v5>
+      </instance>
+      <instance id="distance_list">
+        <root>
+          <item>
+            <itextId>static_instance-distance_list-0</itextId>
+            <name>feet_30</name>
+          </item>
+          <item>
+            <itextId>static_instance-distance_list-1</itextId>
+            <name>feet_100</name>
+          </item>
+          <item>
+            <itextId>static_instance-distance_list-2</itextId>
+            <name>feet_hundred</name>
+          </item>
+          <item>
+            <itextId>static_instance-distance_list-3</itextId>
+            <name>feet_1320</name>
+          </item>
+          <item>
+            <itextId>static_instance-distance_list-4</itextId>
+            <name>feet_2640</name>
+          </item>
+          <item>
+            <itextId>static_instance-distance_list-5</itextId>
+            <name>feet_5280</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="water_list">
+        <root>
+          <item>
+            <itextId>static_instance-water_list-0</itextId>
+            <name>creek</name>
+          </item>
+          <item>
+            <itextId>static_instance-water_list-1</itextId>
+            <name>river</name>
+          </item>
+          <item>
+            <itextId>static_instance-water_list-2</itextId>
+            <name>lake</name>
+          </item>
+          <item>
+            <itextId>static_instance-water_list-3</itextId>
+            <name>wetlands</name>
+          </item>
+          <item>
+            <itextId>static_instance-water_list-4</itextId>
+            <name>marsh</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="landtype_list">
+        <root>
+          <item>
+            <itextId>static_instance-landtype_list-0</itextId>
+            <name>forest</name>
+          </item>
+          <item>
+            <itextId>static_instance-landtype_list-1</itextId>
+            <name>mountains</name>
+          </item>
+          <item>
+            <itextId>static_instance-landtype_list-2</itextId>
+            <name>water</name>
+          </item>
+          <item>
+            <itextId>static_instance-landtype_list-3</itextId>
+            <name>savannah</name>
+          </item>
+          <item>
+            <itextId>static_instance-landtype_list-4</itextId>
+            <name>bush_island</name>
+          </item>
+          <item>
+            <itextId>static_instance-landtype_list-5</itextId>
+            <name>bush_mouth</name>
+          </item>
+          <item>
+            <itextId>static_instance-landtype_list-6</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="achawib_list">
+        <root>
+          <item>
+            <itextId>static_instance-achawib_list-0</itextId>
+            <name>achawib</name>
+          </item>
+          <item>
+            <itextId>static_instance-achawib_list-1</itextId>
+            <name>bashauzoon</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="happening_list">
+        <root>
+          <item>
+            <itextId>static_instance-happening_list-0</itextId>
+            <name>mining</name>
+          </item>
+          <item>
+            <itextId>static_instance-happening_list-1</itextId>
+            <name>logging</name>
+          </item>
+          <item>
+            <itextId>static_instance-happening_list-2</itextId>
+            <name>crossing</name>
+          </item>
+          <item>
+            <itextId>static_instance-happening_list-3</itextId>
+            <name>rustling</name>
+          </item>
+          <item>
+            <itextId>static_instance-happening_list-4</itextId>
+            <name>smuggling</name>
+          </item>
+          <item>
+            <itextId>static_instance-happening_list-5</itextId>
+            <name>hunting</name>
+          </item>
+          <item>
+            <itextId>static_instance-happening_list-6</itextId>
+            <name>fishing</name>
+          </item>
+          <item>
+            <itextId>static_instance-happening_list-7</itextId>
+            <name>trapping</name>
+          </item>
+          <item>
+            <itextId>static_instance-happening_list-8</itextId>
+            <name>grazing</name>
+          </item>
+          <item>
+            <itextId>static_instance-happening_list-9</itextId>
+            <name>tourism</name>
+          </item>
+          <item>
+            <itextId>static_instance-happening_list-10</itextId>
+            <name>artefacts</name>
+          </item>
+          <item>
+            <itextId>static_instance-happening_list-11</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="impacts_list">
+        <root>
+          <item>
+            <itextId>static_instance-impacts_list-0</itextId>
+            <name>cultural</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-1</itextId>
+            <name>sensitive</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-2</itextId>
+            <name>farming</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-3</itextId>
+            <name>hunting</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-4</itextId>
+            <name>wildlife</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-5</itextId>
+            <name>grazing</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-6</itextId>
+            <name>conserved</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-7</itextId>
+            <name>fishing</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-8</itextId>
+            <name>water_pollution</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-9</itextId>
+            <name>water_poison</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-10</itextId>
+            <name>watershed</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-11</itextId>
+            <name>gathering</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-12</itextId>
+            <name>deforestation</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-13</itextId>
+            <name>social</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-14</itextId>
+            <name>fpic</name>
+          </item>
+          <item>
+            <itextId>static_instance-impacts_list-15</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="people_list">
+        <root>
+          <item>
+            <itextId>static_instance-people_list-0</itextId>
+            <name>angelbert_johnny</name>
+          </item>
+          <item>
+            <itextId>static_instance-people_list-1</itextId>
+            <name>derek_david</name>
+          </item>
+          <item>
+            <itextId>static_instance-people_list-2</itextId>
+            <name>tessa_felix</name>
+          </item>
+          <item>
+            <itextId>static_instance-people_list-3</itextId>
+            <name>timothy_j_isaacs</name>
+          </item>
+          <item>
+            <itextId>static_instance-people_list-4</itextId>
+            <name>philip_brown</name>
+          </item>
+          <item>
+            <itextId>static_instance-people_list-5</itextId>
+            <name>gavin_winter</name>
+          </item>
+          <item>
+            <itextId>static_instance-people_list-6</itextId>
+            <name>ezra_jeffery</name>
+          </item>
+          <item>
+            <itextId>static_instance-people_list-7</itextId>
+            <name>elvis_fernandes</name>
+          </item>
+          <item>
+            <itextId>static_instance-people_list-8</itextId>
+            <name>nicholas_federicks</name>
+          </item>
+          <item>
+            <itextId>static_instance-people_list-9</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="exact_choice">
+        <root>
+          <item>
+            <itextId>static_instance-exact_choice-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-exact_choice-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="village_list">
+        <root>
+          <item>
+            <itextId>static_instance-village_list-0</itextId>
+            <region>south_central</region>
+            <name>parikowaro_naawa</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-1</itextId>
+            <region>south_central</region>
+            <name>shorinab</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-2</itextId>
+            <region>south_central</region>
+            <name>potari_naawa</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-3</itextId>
+            <region>south_central</region>
+            <name>soburun</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-4</itextId>
+            <region>south_central</region>
+            <name>zoopo_naawa</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-5</itextId>
+            <region>south_central</region>
+            <name>katoonarub</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-6</itextId>
+            <region>south_central</region>
+            <name>sawari_wao</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-7</itextId>
+            <region>deep_south</region>
+            <name>achawib</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-8</itextId>
+            <region>deep_south</region>
+            <name>karaodaz_naawa</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-9</itextId>
+            <region>deep_south</region>
+            <name>aishara_toon</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-10</itextId>
+            <region>deep_south</region>
+            <name>awaru_wao_naawa</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-11</itextId>
+            <region>deep_south</region>
+            <name>marora_naawa</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-12</itextId>
+            <region>deep_south</region>
+            <name>shii</name>
+          </item>
+          <item>
+            <itextId>static_instance-village_list-13</itextId>
+            <region>deep_south</region>
+            <name>parobaz</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="aishara_toon_list">
+        <root>
+          <item>
+            <itextId>static_instance-aishara_toon_list-0</itextId>
+            <name>aishara_toon</name>
+          </item>
+          <item>
+            <itextId>static_instance-aishara_toon_list-1</itextId>
+            <name>churikidi_naawa</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="potari_naawa_list">
+        <root>
+          <item>
+            <itextId>static_instance-potari_naawa_list-0</itextId>
+            <name>potari_naawa</name>
+          </item>
+          <item>
+            <itextId>static_instance-potari_naawa_list-1</itextId>
+            <name>bai_toon</name>
+          </item>
+          <item>
+            <itextId>static_instance-potari_naawa_list-2</itextId>
+            <name>katuwaoro</name>
+          </item>
+          <item>
+            <itextId>static_instance-potari_naawa_list-3</itextId>
+            <name>shizizi</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="area_list">
+        <root>
+          <item>
+            <itextId>static_instance-area_list-0</itextId>
+            <village>parikowaro_naawa</village>
+            <name>lower_takatu</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-1</itextId>
+            <village>parikowaro_naawa</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-2</itextId>
+            <village>shorinab</village>
+            <name>kanowadtao</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-3</itextId>
+            <village>shorinab</village>
+            <name>middle_rupununi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-4</itextId>
+            <village>shorinab</village>
+            <name>shorinab_mountain_foot</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-5</itextId>
+            <village>shorinab</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-6</itextId>
+            <village>potari_naawa</village>
+            <name>kosad</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-7</itextId>
+            <village>potari_naawa</village>
+            <name>shizizi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-8</itextId>
+            <village>potari_naawa</village>
+            <name>kanowadtao</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-9</itextId>
+            <village>potari_naawa</village>
+            <name>bakawadataawa</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-10</itextId>
+            <village>potari_naawa</village>
+            <name>lower_takatu</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-11</itextId>
+            <village>potari_naawa</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-12</itextId>
+            <village>soburun</village>
+            <name>middle_rupununi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-13</itextId>
+            <village>soburun</village>
+            <name>korowin</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-14</itextId>
+            <village>soburun</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-15</itextId>
+            <village>zoopo_naawa</village>
+            <name>middle_rupununi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-16</itextId>
+            <village>zoopo_naawa</village>
+            <name>korowin</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-17</itextId>
+            <village>zoopo_naawa</village>
+            <name>kamodukuo</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-18</itextId>
+            <village>zoopo_naawa</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-19</itextId>
+            <village>katoonarub</village>
+            <name>middle_rupununi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-20</itextId>
+            <village>katoonarub</village>
+            <name>kashiwiizi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-21</itextId>
+            <village>katoonarub</village>
+            <name>darichibai</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-22</itextId>
+            <village>katoonarub</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-23</itextId>
+            <village>sawari_wao</village>
+            <name>kosad</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-24</itextId>
+            <village>sawari_wao</village>
+            <name>raada</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-25</itextId>
+            <village>sawari_wao</village>
+            <name>mamidi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-26</itextId>
+            <village>sawari_wao</village>
+            <name>toridukuo</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-27</itextId>
+            <village>sawari_wao</village>
+            <name>lower_takatu</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-28</itextId>
+            <village>sawari_wao</village>
+            <name>middle_rupununi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-29</itextId>
+            <village>sawari_wao</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-30</itextId>
+            <village>achawib</village>
+            <name>upper_takatu</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-31</itextId>
+            <village>achawib</village>
+            <name>upper_kuyuwini</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-32</itextId>
+            <village>achawib</village>
+            <name>upper_rupununi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-33</itextId>
+            <village>achawib</village>
+            <name>tamtoon</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-34</itextId>
+            <village>achawib</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-35</itextId>
+            <village>karaodaz_naawa</village>
+            <name>upper_takatu</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-36</itextId>
+            <village>karaodaz_naawa</village>
+            <name>upper_kuyuwini</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-37</itextId>
+            <village>karaodaz_naawa</village>
+            <name>middle_kuyuwini</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-38</itextId>
+            <village>karaodaz_naawa</village>
+            <name>lower_kuyuwini</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-39</itextId>
+            <village>karaodaz_naawa</village>
+            <name>washarar_wao</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-40</itextId>
+            <village>karaodaz_naawa</village>
+            <name>marudi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-41</itextId>
+            <village>karaodaz_naawa</village>
+            <name>upper_rupununi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-42</itextId>
+            <village>karaodaz_naawa</village>
+            <name>tamtoon</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-43</itextId>
+            <village>karaodaz_naawa</village>
+            <name>darichibai</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-44</itextId>
+            <village>karaodaz_naawa</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-45</itextId>
+            <village>aishara_toon</village>
+            <name>middle_kuyuwini</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-46</itextId>
+            <village>aishara_toon</village>
+            <name>lower_kuyuwini</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-47</itextId>
+            <village>aishara_toon</village>
+            <name>kwitaro_head</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-48</itextId>
+            <village>aishara_toon</village>
+            <name>marudi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-49</itextId>
+            <village>aishara_toon</village>
+            <name>rii_wao</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-50</itextId>
+            <village>aishara_toon</village>
+            <name>essequibo_chiip_wao</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-51</itextId>
+            <village>aishara_toon</village>
+            <name>upper_rupununi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-52</itextId>
+            <village>aishara_toon</village>
+            <name>darichibai</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-53</itextId>
+            <village>aishara_toon</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-54</itextId>
+            <village>awaru_wao_naawa</village>
+            <name>middle_kuyuwini</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-55</itextId>
+            <village>awaru_wao_naawa</village>
+            <name>lower_kuyuwini</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-56</itextId>
+            <village>awaru_wao_naawa</village>
+            <name>kwitaro_head</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-57</itextId>
+            <village>awaru_wao_naawa</village>
+            <name>kwitaro</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-58</itextId>
+            <village>awaru_wao_naawa</village>
+            <name>kashiwiizi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-59</itextId>
+            <village>awaru_wao_naawa</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-60</itextId>
+            <village>marora_naawa</village>
+            <name>kwitaro</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-61</itextId>
+            <village>marora_naawa</village>
+            <name>rii_wao</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-62</itextId>
+            <village>marora_naawa</village>
+            <name>essequibo_chiip_wao</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-63</itextId>
+            <village>marora_naawa</village>
+            <name>kashiwiizi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-64</itextId>
+            <village>marora_naawa</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-65</itextId>
+            <village>shii</village>
+            <name>kamodukuo</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-66</itextId>
+            <village>shii</village>
+            <name>kwitaro</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-67</itextId>
+            <village>shii</village>
+            <name>rii_wao</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-68</itextId>
+            <village>shii</village>
+            <name>essequibo_chiip_wao</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-69</itextId>
+            <village>shii</village>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-70</itextId>
+            <village>parobaz</village>
+            <name>upper_kuyuwini</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-71</itextId>
+            <village>parobaz</village>
+            <name>middle_kuyuwini</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-72</itextId>
+            <village>parobaz</village>
+            <name>lower_kuyuwini</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-73</itextId>
+            <village>parobaz</village>
+            <name>washarar_wao</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-74</itextId>
+            <village>parobaz</village>
+            <name>upper_rupununi</name>
+          </item>
+          <item>
+            <itextId>static_instance-area_list-75</itextId>
+            <village>parobaz</village>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="region_list">
+        <root>
+          <item>
+            <itextId>static_instance-region_list-0</itextId>
+            <name>south_central</name>
+          </item>
+          <item>
+            <itextId>static_instance-region_list-1</itextId>
+            <name>deep_south</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="landtitle_choice">
+        <root>
+          <item>
+            <itextId>static_instance-landtitle_choice-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-landtitle_choice-1</itextId>
+            <name>no</name>
+          </item>
+          <item>
+            <itextId>static_instance-landtitle_choice-2</itextId>
+            <name>unknown</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="permission_list">
+        <root>
+          <item>
+            <itextId>static_instance-permission_list-0</itextId>
+            <name>ggmc_permission</name>
+          </item>
+          <item>
+            <itextId>static_instance-permission_list-1</itextId>
+            <name>gfc_permission</name>
+          </item>
+          <item>
+            <itextId>static_instance-permission_list-2</itextId>
+            <name>community_permission</name>
+          </item>
+          <item>
+            <itextId>static_instance-permission_list-3</itextId>
+            <name>outside_permission</name>
+          </item>
+          <item>
+            <itextId>static_instance-permission_list-4</itextId>
+            <name>no_permission</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="public_private">
+        <root>
+          <item>
+            <itextId>static_instance-public_private-0</itextId>
+            <name>public</name>
+          </item>
+          <item>
+            <itextId>static_instance-public_private-1</itextId>
+            <name>private</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="shorinab_list">
+        <root>
+          <item>
+            <itextId>static_instance-shorinab_list-0</itextId>
+            <name>shorinab</name>
+          </item>
+          <item>
+            <itextId>static_instance-shorinab_list-1</itextId>
+            <name>kuaiko</name>
+          </item>
+          <item>
+            <itextId>static_instance-shorinab_list-2</itextId>
+            <name>meri_wao</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/monitoring_v5/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/monitoring_v5/end" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/monitoring_v5/today" type="date"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/monitoring_v5/deviceid" type="string"/>
+      <bind nodeset="/monitoring_v5/group_location/location" type="geopoint"/>
+      <bind nodeset="/monitoring_v5/group_location/lat" type="decimal"/>
+      <bind nodeset="/monitoring_v5/group_location/lon" type="decimal"/>
+      <bind nodeset="/monitoring_v5/exact_location" type="select1"/>
+      <bind nodeset="/monitoring_v5/distance" relevant=" /monitoring_v5/exact_location  = 'no'" type="select1"/>
+      <bind nodeset="/monitoring_v5/bearing" relevant=" /monitoring_v5/exact_location  = 'no'" type="int"/>
+      <bind nodeset="/monitoring_v5/photos/picture" type="binary"/>
+      <bind nodeset="/monitoring_v5/photos/caption" type="string"/>
+      <bind nodeset="/monitoring_v5/region" required="true()" type="select1"/>
+      <bind nodeset="/monitoring_v5/village" required="true()" type="select1"/>
+      <bind nodeset="/monitoring_v5/area" required="true()" type="select1"/>
+      <bind nodeset="/monitoring_v5/shorinab_settlement" relevant=" /monitoring_v5/village  = 'shorinab'" type="select1"/>
+      <bind nodeset="/monitoring_v5/potari_naawa_settlement" relevant=" /monitoring_v5/village  = 'potari_naawa'" type="select1"/>
+      <bind nodeset="/monitoring_v5/achawib_settlement" relevant=" /monitoring_v5/village  = 'achawib'" type="select1"/>
+      <bind nodeset="/monitoring_v5/aishara_toon_settlement" relevant=" /monitoring_v5/village  = 'aishara_toon'" type="select1"/>
+      <bind nodeset="/monitoring_v5/placename" type="string"/>
+      <bind nodeset="/monitoring_v5/placename_mbc" relevant=" /monitoring_v5/village  = 'shorinab' or  /monitoring_v5/village  = 'soburun'" type="string"/>
+      <bind nodeset="/monitoring_v5/landtitle" type="select1"/>
+      <bind nodeset="/monitoring_v5/customary" relevant=" /monitoring_v5/landtitle  = 'no'" type="select1"/>
+      <bind nodeset="/monitoring_v5/happening" type="select1"/>
+      <bind nodeset="/monitoring_v5/happening_other" relevant=" /monitoring_v5/happening  = 'other'" type="string"/>
+      <bind nodeset="/monitoring_v5/crossing_group" relevant=" /monitoring_v5/happening  = 'crossing'"/>
+      <bind nodeset="/monitoring_v5/crossing_group/crossing_active" type="select1"/>
+      <bind nodeset="/monitoring_v5/crossing_group/crossing" type="select"/>
+      <bind nodeset="/monitoring_v5/crossing_group/crossing_other" relevant="selected( /monitoring_v5/crossing_group/crossing , 'other')" type="string"/>
+      <bind nodeset="/monitoring_v5/rustling_group" relevant=" /monitoring_v5/happening  = 'rustling' or selected( /monitoring_v5/crossing_group/crossing , 'rustling')"/>
+      <bind nodeset="/monitoring_v5/rustling_group/cattle_count" type="int"/>
+      <bind nodeset="/monitoring_v5/rustling_group/cattle_cost" type="int"/>
+      <bind nodeset="/monitoring_v5/mining_group" relevant=" /monitoring_v5/happening  = 'mining'"/>
+      <bind nodeset="/monitoring_v5/mining_group/mining_excavators" type="int"/>
+      <bind nodeset="/monitoring_v5/mining_group/mining_dredges" type="int"/>
+      <bind nodeset="/monitoring_v5/who" type="string"/>
+      <bind nodeset="/monitoring_v5/permission" type="select"/>
+      <bind nodeset="/monitoring_v5/landtype" type="select"/>
+      <bind nodeset="/monitoring_v5/landtype_other" relevant="selected( /monitoring_v5/landtype , 'other')" type="string"/>
+      <bind nodeset="/monitoring_v5/landtype_water" relevant="selected( /monitoring_v5/landtype , 'water')" type="select1"/>
+      <bind nodeset="/monitoring_v5/impacts" type="select"/>
+      <bind nodeset="/monitoring_v5/impacts_other" relevant="selected( /monitoring_v5/impacts , 'other')" type="string"/>
+      <bind nodeset="/monitoring_v5/other_info" type="string"/>
+      <bind nodeset="/monitoring_v5/people" type="select"/>
+      <bind nodeset="/monitoring_v5/people_other" relevant="selected( /monitoring_v5/people , 'other')" type="string"/>
+      <bind nodeset="/monitoring_v5/council_informed" type="select1"/>
+      <bind nodeset="/monitoring_v5/council_responded" relevant=" /monitoring_v5/council_informed  = 'yes'" type="select1"/>
+      <bind nodeset="/monitoring_v5/council_actions" relevant=" /monitoring_v5/council_responded  = 'yes'" type="string"/>
+      <bind nodeset="/monitoring_v5/scpda_request" type="select1"/>
+      <bind nodeset="/monitoring_v5/scpda_request_details" relevant=" /monitoring_v5/scpda_request  = 'yes'" type="string"/>
+      <bind nodeset="/monitoring_v5/public" type="select1"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/monitoring_v5/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="concat(format-date-time( /monitoring_v5/start ,'%b-%e %H:%M'),' ', /monitoring_v5/village ,' ', /monitoring_v5/happening )" nodeset="/monitoring_v5/meta/instanceName" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/monitoring_v5/group_location">
+      <input ref="/monitoring_v5/group_location/location">
+        <label>Take GPS point</label>
+        <hint>If you can't get a point with the phone, enter the coordinates from the GPS below.</hint>
+      </input>
+      <input ref="/monitoring_v5/group_location/lat">
+        <label>Latitude N</label>
+      </input>
+      <input ref="/monitoring_v5/group_location/lon">
+        <label>Longitude W</label>
+      </input>
+    </group>
+    <select1 appearance="quick" ref="/monitoring_v5/exact_location">
+      <label>Are you at the actual location?</label>
+      <item>
+        <label>Yes</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>No, I'm some distance away</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/monitoring_v5/distance">
+      <label>How far away are you?</label>
+      <item>
+        <label>About 30 feet</label>
+        <value>feet_30</value>
+      </item>
+      <item>
+        <label>About 100 feet</label>
+        <value>feet_100</value>
+      </item>
+      <item>
+        <label>Several hundred feet</label>
+        <value>feet_hundred</value>
+      </item>
+      <item>
+        <label>Quarter mile</label>
+        <value>feet_1320</value>
+      </item>
+      <item>
+        <label>Half mile</label>
+        <value>feet_2640</value>
+      </item>
+      <item>
+        <label>One mile</label>
+        <value>feet_5280</value>
+      </item>
+    </select1>
+    <input ref="/monitoring_v5/bearing">
+      <label>Bearing:</label>
+      <hint>What is the bearing from you to the location?</hint>
+    </input>
+    <group ref="/monitoring_v5/photos">
+      <upload mediatype="image/*" ref="/monitoring_v5/photos/picture">
+        <label>Take a picture</label>
+        <hint>Choose the best photo that represents what is happening</hint>
+      </upload>
+      <input ref="/monitoring_v5/photos/caption">
+        <label>Photo caption:</label>
+        <hint>Describe what is in the photo</hint>
+      </input>
+    </group>
+    <select1 appearance="quick" ref="/monitoring_v5/region">
+      <label>Where are you?</label>
+      <item>
+        <label>South Central</label>
+        <value>south_central</value>
+      </item>
+      <item>
+        <label>Deep South</label>
+        <value>deep_south</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/monitoring_v5/village">
+      <label>Which village title or extension area?</label>
+      <itemset nodeset="instance('village_list')/root/item[region =  /monitoring_v5/region ]">
+        <value ref="name"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <select1 appearance="quick" ref="/monitoring_v5/area">
+      <label>Which area?</label>
+      <itemset nodeset="instance('area_list')/root/item[village =  /monitoring_v5/village ]">
+        <value ref="name"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <select1 appearance="quick" ref="/monitoring_v5/shorinab_settlement">
+      <label>What’s the nearest village or satellite?</label>
+      <item>
+        <label>Shulinab</label>
+        <value>shorinab</value>
+      </item>
+      <item>
+        <label>Quiko</label>
+        <value>kuaiko</value>
+      </item>
+      <item>
+        <label>Meri Wao</label>
+        <value>meri_wao</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/monitoring_v5/potari_naawa_settlement">
+      <label>What’s the nearest village or satellite?</label>
+      <item>
+        <label>Potari Naawa</label>
+        <value>potari_naawa</value>
+      </item>
+      <item>
+        <label>Bai Toon</label>
+        <value>bai_toon</value>
+      </item>
+      <item>
+        <label>Katuwaoro</label>
+        <value>katuwaoro</value>
+      </item>
+      <item>
+        <label>Shizizi</label>
+        <value>shizizi</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/monitoring_v5/achawib_settlement">
+      <label>What’s the nearest village or satellite?</label>
+      <item>
+        <label>Achawib</label>
+        <value>achawib</value>
+      </item>
+      <item>
+        <label>Bashauzoon</label>
+        <value>bashauzoon</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/monitoring_v5/aishara_toon_settlement">
+      <label>What’s the nearest village or satellite?</label>
+      <item>
+        <label>Aishara Toon</label>
+        <value>aishara_toon</value>
+      </item>
+      <item>
+        <label>Churikidi Naawa</label>
+        <value>churikidi_naawa</value>
+      </item>
+    </select1>
+    <input ref="/monitoring_v5/placename">
+      <label>Place Name (Wapichana):</label>
+      <hint>(If there is one)</hint>
+    </input>
+    <input ref="/monitoring_v5/placename_mbc">
+      <label>Place Name (Macushi):</label>
+      <hint>(If there is one)</hint>
+    </input>
+    <select1 appearance="quick" ref="/monitoring_v5/landtitle">
+      <label>Is it inside an existing land title?</label>
+      <item>
+        <label>Yes</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>no</value>
+      </item>
+      <item>
+        <label>Don't know</label>
+        <value>unknown</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/monitoring_v5/customary">
+      <label>Is it inside extension area?</label>
+      <item>
+        <label>Yes</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/monitoring_v5/happening">
+      <label>What is happening?</label>
+      <item>
+        <label>Mining</label>
+        <value>mining</value>
+      </item>
+      <item>
+        <label>Logging</label>
+        <value>logging</value>
+      </item>
+      <item>
+        <label>Crossing</label>
+        <value>crossing</value>
+      </item>
+      <item>
+        <label>Rustling</label>
+        <value>rustling</value>
+      </item>
+      <item>
+        <label>Smuggling</label>
+        <value>smuggling</value>
+      </item>
+      <item>
+        <label>Illegal Hunting</label>
+        <value>hunting</value>
+      </item>
+      <item>
+        <label>Illegal Fishing</label>
+        <value>fishing</value>
+      </item>
+      <item>
+        <label>Illegal Trapping</label>
+        <value>trapping</value>
+      </item>
+      <item>
+        <label>Illegal Grazing</label>
+        <value>grazing</value>
+      </item>
+      <item>
+        <label>Tourism Violation</label>
+        <value>tourism</value>
+      </item>
+      <item>
+        <label>Stealing Artefacts</label>
+        <value>artefacts</value>
+      </item>
+      <item>
+        <label>Other…</label>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/monitoring_v5/happening_other">
+      <label>Describe what is happening:</label>
+    </input>
+    <group ref="/monitoring_v5/crossing_group">
+      <label>About the crossing</label>
+      <select1 ref="/monitoring_v5/crossing_group/crossing_active">
+        <label>Is the crossing active?</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/monitoring_v5/crossing_group/crossing">
+        <label>What is the crossing being used for?</label>
+        <hint>You can select more than one. Select &quot;other&quot; if you want to add more information</hint>
+        <item>
+          <label>Mining</label>
+          <value>mining</value>
+        </item>
+        <item>
+          <label>Logging</label>
+          <value>logging</value>
+        </item>
+        <item>
+          <label>Crossing</label>
+          <value>crossing</value>
+        </item>
+        <item>
+          <label>Rustling</label>
+          <value>rustling</value>
+        </item>
+        <item>
+          <label>Smuggling</label>
+          <value>smuggling</value>
+        </item>
+        <item>
+          <label>Illegal Hunting</label>
+          <value>hunting</value>
+        </item>
+        <item>
+          <label>Illegal Fishing</label>
+          <value>fishing</value>
+        </item>
+        <item>
+          <label>Illegal Trapping</label>
+          <value>trapping</value>
+        </item>
+        <item>
+          <label>Illegal Grazing</label>
+          <value>grazing</value>
+        </item>
+        <item>
+          <label>Tourism Violation</label>
+          <value>tourism</value>
+        </item>
+        <item>
+          <label>Stealing Artefacts</label>
+          <value>artefacts</value>
+        </item>
+        <item>
+          <label>Other…</label>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/monitoring_v5/crossing_group/crossing_other">
+        <label>Describe what the crossing is being used for</label>
+      </input>
+    </group>
+    <group ref="/monitoring_v5/rustling_group">
+      <label>More about the rustling</label>
+      <input ref="/monitoring_v5/rustling_group/cattle_count">
+        <label>How many cattle?</label>
+        <hint>How many cattle have been rustled?</hint>
+      </input>
+      <input ref="/monitoring_v5/rustling_group/cattle_cost">
+        <label>How much was the cattle worth?</label>
+        <hint>Enter amount in Guyanese Dollars</hint>
+      </input>
+    </group>
+    <group ref="/monitoring_v5/mining_group">
+      <label>More about the mining</label>
+      <input ref="/monitoring_v5/mining_group/mining_excavators">
+        <label>How many excavators?</label>
+      </input>
+      <input ref="/monitoring_v5/mining_group/mining_dredges">
+        <label>How many dredges?</label>
+      </input>
+    </group>
+    <input ref="/monitoring_v5/who">
+      <label>Who is doing this or where are they from?</label>
+      <hint>If you don't know, leave this blank</hint>
+    </input>
+    <select ref="/monitoring_v5/permission">
+      <label>What permission do they have?</label>
+      <hint>You can select more than one.</hint>
+      <item>
+        <label>GGMC Permission</label>
+        <value>ggmc_permission</value>
+      </item>
+      <item>
+        <label>GFC Permission</label>
+        <value>gfc_permission</value>
+      </item>
+      <item>
+        <label>Village Permission</label>
+        <value>community_permission</value>
+      </item>
+      <item>
+        <label>Operating outside permitted area</label>
+        <value>outside_permission</value>
+      </item>
+      <item>
+        <label>No Permission</label>
+        <value>no_permission</value>
+      </item>
+    </select>
+    <select ref="/monitoring_v5/landtype">
+      <label>What land type is affected?</label>
+      <hint>You can select more than one.</hint>
+      <item>
+        <label>Forest</label>
+        <value>forest</value>
+      </item>
+      <item>
+        <label>Mountains</label>
+        <value>mountains</value>
+      </item>
+      <item>
+        <label>Water</label>
+        <value>water</value>
+      </item>
+      <item>
+        <label>Savannah</label>
+        <value>savannah</value>
+      </item>
+      <item>
+        <label>Bush Island</label>
+        <value>bush_island</value>
+      </item>
+      <item>
+        <label>Bush Mouth</label>
+        <value>bush_mouth</value>
+      </item>
+      <item>
+        <label>Other</label>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/monitoring_v5/landtype_other">
+      <label>Describe what is affected:</label>
+      <hint>This is showing because you selected 'other' on the previous screen</hint>
+    </input>
+    <select1 appearance="quick" ref="/monitoring_v5/landtype_water">
+      <label>What type of water is affected?</label>
+      <item>
+        <label>Creek</label>
+        <value>creek</value>
+      </item>
+      <item>
+        <label>River</label>
+        <value>river</value>
+      </item>
+      <item>
+        <label>Lake</label>
+        <value>lake</value>
+      </item>
+      <item>
+        <label>Wetlands</label>
+        <value>wetlands</value>
+      </item>
+      <item>
+        <label>Marsh</label>
+        <value>marsh</value>
+      </item>
+    </select1>
+    <select ref="/monitoring_v5/impacts">
+      <label>What are the impacts?</label>
+      <hint>You can select more than one.</hint>
+      <item>
+        <label>Loss of cultural heritage</label>
+        <value>cultural</value>
+      </item>
+      <item>
+        <label>Violation of sensitive site</label>
+        <value>sensitive</value>
+      </item>
+      <item>
+        <label>Damage to farming grounds</label>
+        <value>farming</value>
+      </item>
+      <item>
+        <label>Depletion of game</label>
+        <value>hunting</value>
+      </item>
+      <item>
+        <label>Damage to wildlife / habitat</label>
+        <value>wildlife</value>
+      </item>
+      <item>
+        <label>Damage to grazing lands</label>
+        <value>grazing</value>
+      </item>
+      <item>
+        <label>Harm to community conserved site</label>
+        <value>conserved</value>
+      </item>
+      <item>
+        <label>Depletion of fish</label>
+        <value>fishing</value>
+      </item>
+      <item>
+        <label>Water pollution</label>
+        <value>water_pollution</value>
+      </item>
+      <item>
+        <label>Water poisoned</label>
+        <value>water_poison</value>
+      </item>
+      <item>
+        <label>Damage to water source / watershed</label>
+        <value>watershed</value>
+      </item>
+      <item>
+        <label>Damage to gathering grounds</label>
+        <value>gathering</value>
+      </item>
+      <item>
+        <label>Deforestation</label>
+        <value>deforestation</value>
+      </item>
+      <item>
+        <label>Social harm or abuse</label>
+        <value>social</value>
+      </item>
+      <item>
+        <label>FPIC violation</label>
+        <value>fpic</value>
+      </item>
+      <item>
+        <label>Other</label>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/monitoring_v5/impacts_other">
+      <label>Describe any other impacts</label>
+      <hint>This is showing because you selected 'other' on the previous screen</hint>
+    </input>
+    <input ref="/monitoring_v5/other_info">
+      <label>Anything else you want to add?</label>
+    </input>
+    <select ref="/monitoring_v5/people">
+      <label>Who are you and who is with you?</label>
+      <hint>If someone is also with you that is not on the list, also select &quot;other&quot; below</hint>
+      <item>
+        <label>Angelbert Johnny</label>
+        <value>angelbert_johnny</value>
+      </item>
+      <item>
+        <label>Derek David</label>
+        <value>derek_david</value>
+      </item>
+      <item>
+        <label>Tessa Felix</label>
+        <value>tessa_felix</value>
+      </item>
+      <item>
+        <label>Timothy J Isaacs</label>
+        <value>timothy_j_isaacs</value>
+      </item>
+      <item>
+        <label>Philip Brown</label>
+        <value>philip_brown</value>
+      </item>
+      <item>
+        <label>Gavin Winter</label>
+        <value>gavin_winter</value>
+      </item>
+      <item>
+        <label>Ezra Jeffery</label>
+        <value>ezra_jeffery</value>
+      </item>
+      <item>
+        <label>Elvis Fernandes</label>
+        <value>elvis_fernandes</value>
+      </item>
+      <item>
+        <label>Nicholas Fredericks</label>
+        <value>nicholas_federicks</value>
+      </item>
+      <item>
+        <label>Other (e.g. guide)</label>
+        <value>other</value>
+      </item>
+    </select>
+    <input ref="/monitoring_v5/people_other">
+      <label>Who else are you with?</label>
+      <hint>Add the name of your guide(s) here</hint>
+    </input>
+    <select1 appearance="quick" ref="/monitoring_v5/council_informed">
+      <label>Has the information you have collected been given to the village council?</label>
+      <item>
+        <label>Yes</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/monitoring_v5/council_responded">
+      <label>Has the village council informed you about what they will do?</label>
+      <item>
+        <label>Yes</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/monitoring_v5/council_actions">
+      <label>Describe what actions they propose to take</label>
+    </input>
+    <select1 appearance="quick" ref="/monitoring_v5/scpda_request">
+      <label>Does the village council request any action from SCPDA?</label>
+      <item>
+        <label>Yes</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/monitoring_v5/scpda_request_details">
+      <label>What does the village council want the SCPDA to do?</label>
+    </input>
+    <select1 appearance="quick" ref="/monitoring_v5/public">
+      <label>Does the village council want the information collected to public on the website or kept internal?</label>
+      <item>
+        <label>Public</label>
+        <value>public</value>
+      </item>
+      <item>
+        <label>Internal</label>
+        <value>private</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>
