@@ -1,0 +1,28 @@
+{
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "start": "2015-08-25T10:59:18.275-04",
+    "end": "2015-08-25T11:00:14.721-04",
+    "today": "2015-08-25",
+    "deviceid": 990003451134478,
+    "group_location": {
+      "lat": 60,
+      "lon": 120
+    },
+    "exact_location": "yes",
+    "territory_category": "ways",
+    "territory_type": "road",
+    "territory_type_detail": "main_road",
+    "placename": "Test",
+    "people": "other",
+    "meta": {
+      "instanceId": "uuid:b6e04cda-1069-49d0-8128-280fea9e7a4b",
+      "instanceName": "Aug-25 10:59 territory point",
+      "formId": "territory",
+      "version": 2,
+      "deviceId": "imei:990003451134478",
+      "submissionTime": "2015-08-25T15:19:08.138Z"
+    }
+  }
+}
